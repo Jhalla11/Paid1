@@ -94,7 +94,7 @@ class Main:
 		except requests.exceptions.ConnectionError:
 			print("\n%s [!] NO INTERNET CONNECTION..\n"%(G))
 			exit()
-			os.system('xdg-open 'https://youtube.com/channel/UC7VzQau0F-tsOkRcksAmmxw')
+			os.system('xdg-open https://github.com/Jhalla11')
 		os.system("clear")
 		
 		print ("""\033[1;92m   
