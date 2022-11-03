@@ -41,7 +41,7 @@ def runtxt(z):
 
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
-	subprocess.check_output(["am", "start", "https://github.com/ariyankhan5630/Naim.txt/blob/main/Lover.txt"])
+	subprocess.check_output(["am", "start", "https://github.com/Jhalla11/Aprrovl/blob/main/Aprrovl.txt"])
 	exit(" [*] FACEBOOK :  MD NAIME RAHMAN ")
 
 
@@ -78,7 +78,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://github.com/Jhalla11/Aprrovl/edit/main/Aprrovl.txt').text
+			plr = requests.get('https://github.com/Jhalla11/Aprrovl/blob/main/Aprrovl.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mPREMIUM")
